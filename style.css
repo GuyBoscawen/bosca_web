@@ -1,0 +1,235 @@
+
+#head {
+	background-color: white;
+	width: 100%;
+	padding-top: 20px;
+}
+
+
+#head nav {
+	margin-top: 20px;
+	margin-left: 50px;
+}
+
+#head nav a {
+	margin-right: 30px;
+	font-size: 18px;
+	padding: 3px 6px;
+	border: 2px solid navy;
+	border-radius: 8px;
+	color: navy;
+}
+#head nav a:hover {
+	background-color: gray; 
+}
+
+#head h2 {
+	margin-top: -5px;
+	color: #797584;
+	font: "open sans";
+}
+
+#colo {
+	position: relative;
+	color: navy;
+	margin-left: -130px;
+	margin-top: 30px;
+}
+
+
+
+#contain {
+	display: none;
+	margin-bottom: 50px;
+}
+
+#contain img, p {
+	margin-left: 30px;
+	margin-bottom: 25px;
+	font: 400 18px/1 'Kaushan Script', cursive;
+}
+
+#contain img {
+	-webkit-box-shadow: 3px 3px 3px #777;
+     -moz-box-shadow: 3px 3px 3px #777;
+          box-shadow: 3px 3px 3px #777;
+    opacity: 0.7;
+}
+
+#contain img:hover {
+	opacity: 1;
+}
+
+
+#maintain {
+	display: none;
+	margin-bottom: 50px;
+}
+
+#maintain img, p {
+	margin-left: 30px;
+	margin-bottom: 25px;
+} 
+
+#maintain img {
+	-webkit-box-shadow: 3px 3px 3px #777;
+     -moz-box-shadow: 3px 3px 3px #777;
+          box-shadow: 3px 3px 3px #777;
+    opacity: 0.7;
+}
+
+#maintain img:hover {
+	opacity: 1;
+}
+
+#obtain {
+	display: none;
+	margin-bottom: 50px;
+}
+
+#obtain img, p {
+	margin-left: 30px;
+	margin-bottom: 25px;
+} 
+
+#obtain img {
+	-webkit-box-shadow: 3px 3px 3px #777;
+     -moz-box-shadow: 3px 3px 3px #777;
+          box-shadow: 3px 3px 3px #777;
+    opacity: 0.7;
+}
+
+#obtain img:hover {
+	opacity: 1;
+}
+
+#retain {
+	display: none;
+	margin-bottom: 50px;
+}
+
+#retain img, p {
+	margin-left: 30px;
+	margin-bottom: 25px;
+} 
+
+#retain img {
+	-webkit-box-shadow: 3px 3px 3px #777;
+     -moz-box-shadow: 3px 3px 3px #777;
+          box-shadow: 3px 3px 3px #777;
+    opacity: 0.7;
+}
+
+#retain img:hover {
+	opacity: 1;
+}
+
+#cartagena {
+  display: flex;
+  align-items: center;
+  background-image: url('phots/cartagena_main.jpg');
+  background-size: cover;
+  color: #ffffff;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+
+
+#salento {
+  display: flex;
+  align-items: center;
+  background-image: url('phots/salento_main.jpeg');
+  background-size: cover;
+  color: #ffffff;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+#guajira {
+  display: flex;
+  align-items: center;
+  background-image: url('phots/gua_main.jpg');
+  background-size: cover;
+  color: #ffffff;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+
+
+
+
+
+#nipple {
+	position: relative;
+	color: navy;
+	margin-left: -130px;
+	margin-top: 30px;
+}
+
+#squad {
+	display: flex;
+  	align-items: center;
+ 	background-image: url('phots/team_main2.jpeg');
+ 	background-size: cover;
+  	color: #ffffff;
+  	height: 500px;
+  	text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+#annapurna {
+	display: flex;
+  	align-items: center;
+  	background-image: url('phots/annapurna_main.jpeg');
+  	background-size: cover;
+  	color: #ffffff;
+  	height: 500px;
+  	text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+#trek {
+	display: flex;
+  	align-items: center;
+  	background-image: url('phots/trek_main.jpeg');
+  	background-size: cover;
+  	color: #ffffff;
+  	height: 500px;
+  	text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+#kath {
+	display: flex;
+  	align-items: center;
+  	background-image: url('phots/kath_main.jpeg');
+  	background-size: cover;
+  	color: #ffffff;
+  	height: 500px;
+  	text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+  margin-top: -50px;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
+
+h3 {
+	display: none;
+}
+
+
