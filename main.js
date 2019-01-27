@@ -1,15 +1,33 @@
 $(document).ready(() => {
 	$('#btn').on('click', () => {
-		$('#contain').toggle()
+		$('#contain').slideToggle('slow')
 	})
 	$('#bt').on('click', () => {
-		$('#maintain').toggle()
+		$('#maintain').slideToggle('slow')
+		
 	})
 	$('#b').on('click', () => {
-		$('#obtain').toggle()
+		$('#obtain').slideToggle('slow')
 	})
 	$('#bttn').on('click', () => {
-		$('#retain').toggle()
+		$('#retain').slideToggle('slow')
+	})
+
+	$('#maintain').hover(() => {
+		$('body').toggleClass('filter')
+		$('#maintain').addClass('whitener')
+	})
+	$('#obtain').hover(() => {
+		$('body').toggleClass('filter')
+		$('#obtain').addClass('whitener')
+	})
+	$('#retain').hover(() => {
+		$('body').toggleClass('filter')
+		$('#retain').addClass('whitener')
+	})
+	$('#contain').hover(() => {
+		$('body').toggleClass('filter')
+		$('#contain').addClass('whitener')
 	})
 	
 	
